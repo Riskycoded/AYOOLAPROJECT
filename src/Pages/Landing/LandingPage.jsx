@@ -5,6 +5,7 @@ import Mission from "./Sections/Mission";
 import Values from "./Sections/Values";
 import ServicesOri from "./Sections/ServicesOri";
 import Footer from "./Sections/footer";
+import Hero_video from '../../assets/Hero_video.mp4';
 
 
 const LandingPage = () => {
