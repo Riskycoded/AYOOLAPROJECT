@@ -1,4 +1,6 @@
 import React from "react";
+import { Router } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 // You can replace these with your actual icon URLs or use Heroicons/React Icons
 const socialIcons = {
@@ -31,7 +33,7 @@ const Footer = () => {
           <a href="#services" className="hover:text-gray-400 transition">Services</a>
           <a href="#about" className="hover:text-gray-400 transition">About</a>
           <a href="#pricing" className="hover:text-gray-400 transition">Values</a>
-          <a href="#contact" className="hover:text-gray-400 transition">Contact us</a>
+          <Link to="/contactus" className="hover:text-gray-400 transition">Contact us</Link>
         </nav>
 
         {/* Social Icons */}
