@@ -37,6 +37,10 @@ const Hero = () => {
                   <p  className="text-4xl font-bold ">• Credibility</p>
                   <p  className="text-4xl font-bold ">• Growth</p>
               </div>
+
+              <div className="py-10">
+                  <button className="rounded bg-white text-black w-50 h-13 font-bold text-xl hover:bg-black hover:text-white hover:oultine-white outline transition-colors duration-200 py-2 px-4">Book a call today</button>
+              </div>
           </div>
       </div>
   );

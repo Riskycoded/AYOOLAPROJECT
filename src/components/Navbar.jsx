@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link to="/portfolio" className="hover:text-[#1E8CFF] text-[#0A1A2F] text-xl font-medium transition">
               Portfolio
             </Link>
-            <Link to="/testimonials" className="hover:text-[#1E8CFF] text-[#0A1A2F] text-xl font-medium transition">
+            <Link to="/testimonial" className="hover:text-[#1E8CFF] text-[#0A1A2F] text-xl font-medium transition">
               Testimonials
             </Link>
             <Link to="/contactus" className="hover:text-[#1E8CFF] text-[#0A1A2F] text-xl font-medium transition">

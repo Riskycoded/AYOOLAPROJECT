@@ -45,7 +45,7 @@ const Services = ({ image, title, desc1, desc2, desc3, desc4 }) => {
               className="flex items-start gap-4 opacity-90 group-hover:opacity-100 
                          transition-all duration-300"
             >
-              <div className="flex-shrink-0 w-7 h-7 mt-1">
+              <div className="shrink-0 w-7 h-7 mt-1">
                 <img
                   src={CheckIcon}
                   alt="check"
